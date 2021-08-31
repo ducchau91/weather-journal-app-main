@@ -61,7 +61,7 @@ const postData = async ( url = '', data = {})=>{
 
 //update UI
 const updateUI = async () => {
-    const request = await fetch('http://localhost:4000/weather');
+    const request = await fetch('/weather');
     try{
       const allData = await request.json();
       document.getElementById('date').innerHTML = 'Today is ' + allData.date;
