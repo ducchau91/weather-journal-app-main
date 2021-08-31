@@ -64,7 +64,7 @@ input{
     border: none;
 }
 
-button{
+.button{
     width: 400px;
     height: 100px;
     background: #3b4a6b;
@@ -74,6 +74,13 @@ button{
     border: none;
     box-shadow: 2px 4px 5px #444;
 }
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 h1{
     font-size: 36px;
 }
